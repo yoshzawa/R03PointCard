@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="R03PointCard.Page3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="設定ページ"
+                VerticalOptions="CenterAndExpand" 
+                 />
+            <StackLayout>
+                <Label Text="アクセスするURLの指定"                 />
+            <RadioButton Content="デフォルトのURLを使用する" x:Name="radioDefaultUrl"/>
+            <RadioButton Content="最後に読み込んだURLを使用する" x:Name="radioCustomUrl"/>
+                <Button Text="テスト用QRCODEを読み込む" Clicked="Button1_Clicked" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
