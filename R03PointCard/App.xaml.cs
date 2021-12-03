@@ -21,7 +21,7 @@ namespace R03PointCard
             AppCenter.Start("ios=5b154fa1-c38a-4801-9816-b51a05488bea;" +
                   "uwp={Your UWP App secret here};" +
                   "android={Your Android App secret here}",
-                  typeof(Analytics), typeof(Crashes))
+                  typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep()
